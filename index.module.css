@@ -1,0 +1,42 @@
+/* 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.headtitle {
+  font-weight: 700;
+  font-size: 90px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333d51;
+}
+
+.navList {
+  width: 400px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  list-style: none;
+}
+
+.navList li {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+/* 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
