@@ -1,0 +1,49 @@
+/* 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 3000px;
+}
+
+.subtext > p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.flipBtn {
+  width: 200px;
+  height: 100px;
+  color: #fff;
+  transform-style: preserve-3d;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.flipBtn:hover {
+  transform: rotateX(-90deg);
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3ac2b;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px;
+  transform: translateZ(50px);
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7a432;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+  transform: rotateX(90deg) translateZ(150px);
+}
