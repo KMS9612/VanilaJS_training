@@ -4,6 +4,32 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+
+#dynamic {
+  display: inline-block;
+  position: relative;
+  font-size: 1.5rem;
+}
+#dynamic::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: -1;
+  width: 3px;
+  height: 70%;
+  background-color: #fff;
+}
+
+#dynamic.active::after {
+  display: none;
+}
+
+.wrapper > i {
+  font-size: 5rem;
+  color: #d3ac2b;
 }
