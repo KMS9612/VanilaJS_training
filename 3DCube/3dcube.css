@@ -1,0 +1,72 @@
+/* 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  user-select: none;
+}
+
+.subtext {
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.scene {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  color: #fff;
+  text-align: center;
+  /* transition: all 1s ease-in-out; */
+  -webkit-user-drag: none;
+}
+
+.scene div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  width: 100px;
+  height: 100px;
+  background-color: #d3ac2b;
+  transform: translateZ(50px);
+}
+.up {
+  width: 100px;
+  height: 100px;
+  background-color: #937926;
+  transform: rotateX(90deg) translateZ(50px);
+}
+.left {
+  width: 100px;
+  height: 100px;
+  background-color: #ccaf4f;
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.right {
+  width: 100px;
+  height: 100px;
+  background-color: #e0ad06;
+  transform: rotateY(90deg) translateZ(50px);
+}
+.back {
+  width: 100px;
+  height: 100px;
+  background-color: #a89143;
+  transform: translateZ(-50px) rotateY(180deg);
+}
+.down {
+  width: 100px;
+  height: 100px;
+  background-color: #f0cf63;
+  transform: rotateX(-90deg) translateZ(50px);
+}
